@@ -13,6 +13,7 @@ for i in range(T):
         if que[0] == max(que):
             cnt += 1
             que.popleft()
+            # idx_que.popleft()
             
             if idx_que.popleft() == M:
                 print(cnt)
