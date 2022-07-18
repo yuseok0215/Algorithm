@@ -1,6 +1,9 @@
 def solution(s): 
-    s = "aaabbbccccddd"
+
     answer = len(s)
+    
+    if len(s) == 1:
+        return 1
         
     for i in range(1, (len(s)//2) + 1):
         slice = s[0:i]
@@ -26,5 +29,3 @@ def solution(s):
             result += str(cnt) + slice
             
         answer = min(answer, len(result))
-        
-        
