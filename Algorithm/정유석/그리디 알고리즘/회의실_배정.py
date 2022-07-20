@@ -8,8 +8,6 @@ for _ in range(n):
 time = sorted(time, key=lambda a: a[0]) # 시작시간을 기준으로 오름차순 정렬
 time = sorted(time, key=lambda a: a[1]) # 끝나는 시간을 기준으로 오름차순 정렬
 
-print(time)
-
 last = 0
 cnt = 0
 

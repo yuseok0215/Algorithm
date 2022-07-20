@@ -10,5 +10,5 @@ for i in range(n):
 data.sort()
 for l in range(n):
     result.append(data[l] * (n-l))
-
+    
 print(max(result))

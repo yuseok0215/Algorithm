@@ -1,6 +1,3 @@
-from sqlalchemy import case
-
-
 data = input()
 row = int(data[1])
 column = int(ord(data[0]))-int(ord('a')) + 1
