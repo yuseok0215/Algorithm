@@ -26,7 +26,6 @@ def bfs(x,y):
                 if graph[next_x][next_y] == 0:
                     queue.append((next_x, next_y))
                     graph[next_x][next_y] = 1
-    return True
 
 cnt = 0
 
