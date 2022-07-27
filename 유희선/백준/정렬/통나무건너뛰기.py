@@ -16,7 +16,7 @@ for _ in range(t):
             res.append(arr[i])
     maxDis=-217000000
     for i in range(0,n):
-        dis=res[i]-res[i-1]
+        dis=abs(res[i]-res[i-1])
         if dis>maxDis:
             maxDis=dis
     print(maxDis)
