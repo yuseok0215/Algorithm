@@ -11,7 +11,7 @@ visited=[False]*n
 cnt=0
 
 def bfs(start,visit,cnt):
-    q=deque()  
+    q=deque()
     q.append(start)
     while q:
         v=q.popleft()

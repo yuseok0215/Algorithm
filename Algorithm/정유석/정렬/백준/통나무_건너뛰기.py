@@ -19,7 +19,7 @@ for _ in range(t):
 
     #queue = list(queue)
     
-    #min = abs(queue[n-1] - queue[0])
+    min = abs(queue[n-1] - queue[0])
     for i in range(n-1): # 차이의 최솟값
         queue = abs(arr[i] - arr[i+1])
         if queue < min:
