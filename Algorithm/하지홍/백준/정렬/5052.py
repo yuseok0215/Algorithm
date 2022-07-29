@@ -1,11 +1,11 @@
 T = int(input())
 
-for _ in range(T):
+for t in range(T):
     N = int(input())
 
     phonebook = []
 
-    for _ in range(N):
+    for j in range(N):
         phonebook.append(input())
 
     phonebook.sort(key=str)

@@ -10,7 +10,7 @@ for i in range(n):
     arr.append((a,b))
     
 arr.sort(key=lambda x : x[0])
-print(arr)
+# print(arr)
 
 heapq.heappush(classes, arr[0][1])
 
