@@ -23,7 +23,4 @@ sum = 0
 for i in range(m):
     sum += abs(x_list[i]-position_x) + abs(y_list[i]-position_y)
     
-    
-
-
 print(sum)
